@@ -30,4 +30,3 @@ jobs:
       - name: Lint Terraform
         run: terraform fmt -recursive -check
         working-directory: v2/internal/attacktechniques
-        
